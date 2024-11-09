@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheng-Lien Lee's Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .header {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0;
+            padding: 20px 0;
+            background-color: #001f3f; /* Navy blue background */
+            color: #ffffff; /* White text */
+            border-bottom: 2px solid #000;
+        }
+        .header a {
+            text-decoration: none;
+            color: inherit; /* Inherit the white color */
+            display: block; /* Make the link cover the entire header */
+        }
+        .product-section {
+            width: 100%; /* Make the section full width */
+            margin: 0; /* Remove margins to extend to the edges */
+        }
+        .product-section img {
+            width: 100%; /* Ensure the image spans the entire width */
+            display: block; /* Remove inline block space */
+        }
+        .product-content {
+            text-align: center;
+            padding: 5px;
+            background-color: #f5f5f5; /* Light background for the text content */
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            width: 100%;
+            padding: 0;
+        }
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section with Link -->
+    <div class="header">
+        <a href="/Users/shenglienlee/Desktop/Web/index.html">SHENG - LIEN LEE</a> <!-- Link to home -->
+    </div>
+
+    <!-- Product Sections -->
+    <div class="product-section">
+        <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image1.jpg" alt="Project 1">
+        </a>
+        <div class="product-content">
+    </div>
+
+    <div class="product-section">
+        <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image2.jpg" alt="Project 2">
+        </a>
+        <div class="product-content">
+    </div>
+
+    <div class="product-section">
+        <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image3.jpg" alt="Project 3">
+        </a>
+        <div class="product-content">
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image4.jpg" alt="Project 4">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image5.jpg" alt="Project 5">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="/Users/shenglienlee/Desktop/Web/index.html" class="product-link">
+            <img src="/Users/shenglienlee/Desktop/Web/material/image/image6.jpg" alt="Project 6">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
